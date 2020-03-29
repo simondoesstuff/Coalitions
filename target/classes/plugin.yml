@@ -1,6 +1,6 @@
 name: Coalitions
 version: 1.0-SNAPSHOT
-main: org.simondoestuff.coalitions.Coalitions
+main: org.simondoestuff.coalitions.Plugin
 api-version: 1.13
 authors: [simondoestuff]
 commands:
