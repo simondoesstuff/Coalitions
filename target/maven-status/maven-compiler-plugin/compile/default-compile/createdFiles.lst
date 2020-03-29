@@ -1,0 +1,5 @@
+org\simondoestuff\coalitions\Coalitions.class
+org\simondoestuff\coalitions\Command\Infastructure\AnnotatedCommandExecutor$CmdHandle.class
+org\simondoestuff\coalitions\Command\Infastructure\AnnotatedCommandExecutor.class
+org\simondoestuff\coalitions\Command\Commands\TestCommands.class
+org\simondoestuff\coalitions\Command\Infastructure\Cmd.class

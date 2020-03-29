@@ -1,0 +1,8 @@
+name: Coalitions
+version: ${project.version}
+main: org.simondoestuff.coalitions.Plugin
+api-version: 1.13
+authors: [simondoestuff]
+commands:
+  coa:
+    description: "Root command for Coalitions"

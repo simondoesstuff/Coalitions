@@ -1,0 +1,8 @@
+name: Coalitions
+version: 1.0-SNAPSHOT
+main: org.simondoestuff.coalitions.Coalitions
+api-version: 1.13
+authors: [simondoestuff]
+commands:
+  coa:
+    description: "Root command for Coalitions"
