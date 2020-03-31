@@ -1,5 +1,11 @@
 target/
-.idea\
-target\
 .idea/
+target\
+.idea\
+
+target/.*
+.idea/.*
+target\.*
+.idea\.*
+
 Coalitions.iml
