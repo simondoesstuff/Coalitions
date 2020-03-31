@@ -1,9 +1,0 @@
-name: Coalitions
-version: 1.1
-main: org.simondoestuff.coalitions.Plugin
-api-version: 1.13
-authors: [simondoestuff]
-commands:
-  coa:
-    description: "Root command for Coalitions. <args> are required, [args] are optional. Use /coa help for more information."
-    usage: "/coa <subcommand> [args]"
