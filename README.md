@@ -8,7 +8,7 @@ ___
         * [ ] /aPossibleSubCommand or temporary command(like /confirm)
     > * [ ] a special |sub or temp| command that does not necessarilly belong to one command
 
-###Groups:
+### Groups:
 * **Creation**
 * [x] new
 * [x] disband
