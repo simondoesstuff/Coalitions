@@ -1,5 +1,11 @@
 # Coalitions
-Semi-Large Minecraft Plugin that partially replaces conventional 'Factions'.
+**Medium-sized Minecraft Plugin that partially replaces conventional 'Factions'.**
+___
+
+### Commands:
+![title](//)
+
+\fbox{verbatim}
 
     Commands and their corresponding classes:
         Roles:
