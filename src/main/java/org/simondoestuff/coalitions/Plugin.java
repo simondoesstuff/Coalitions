@@ -6,6 +6,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import org.simondoestuff.coalitions.Command.Commands.Creation;
 import org.simondoestuff.coalitions.Command.Commands.InfoCommand;
 import org.simondoestuff.coalitions.Command.Commands.Other;
+import org.simondoestuff.coalitions.Command.Commands.Roles.RolesRoot;
 import org.simondoestuff.coalitions.Command.Infrastructure.AnnotatedCommandExecutor;
 
 public final class Plugin extends JavaPlugin {
@@ -20,6 +21,7 @@ public final class Plugin extends JavaPlugin {
     @Override
     public void onEnable() {
         instance = this;
+        //noinspection ConstantConditions
         getCommand("coa").setExecutor(primaryExecutor);
         initCommands();
     }
@@ -32,6 +34,7 @@ public final class Plugin extends JavaPlugin {
         primaryExecutor.addClass(new Other());
         primaryExecutor.addClass(new InfoCommand());
         primaryExecutor.addClass(new Creation());
+        primaryExecutor.addClass(new RolesRoot());
     }
 
     public static void println(String str, CommandSender... players) {

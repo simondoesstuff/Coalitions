@@ -28,16 +28,12 @@ public class Other {
         if (user.getCoa() != null && user.getRole().hasPermission(CPERM.SETHOME)) {
             user.getCoa().setHome(p.getLocation());
             Plugin.println("Your coalition's home has been set.", sender);
-            return;
         } else if (user.getCoa() == null) {
             Plugin.println("§4You are not in a coalition.", sender);
-            return;
         } else if (!user.getRole().hasPermission(CPERM.SETHOME)) {
             Plugin.println("§4You do not meet the required rank to set a home.", sender);
-            return;
         } else {
             Plugin.println("§4Error, try again. If you continue to have this problem, please contact the developer.");
-            return;
         }
     }
 
@@ -66,7 +62,7 @@ public class Other {
         Plugin.println("Teleporting...", sender);
     }
 
-    @Cmd(handle = "setrole", args = "<Player> <RoleName>", description = "Set a coalition member's role.", perms = "coa.setrole")
+    @Cmd(handle = "setrole", args = "<Player> <RoleName>", description = "Set a coalition member's role.", perms = "coa.setrole")           // move to rolesRoot
     private void setUserRole(CommandSender sender, String[] args) {
         if (!(sender instanceof Player)) {
             Plugin.println("§4You must be a player to use that command.", sender);
